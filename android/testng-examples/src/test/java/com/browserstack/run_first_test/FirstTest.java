@@ -1,14 +1,14 @@
 package com.browserstack.run_first_test;
 
-import io.appium.java_client.MobileBy;
-import io.appium.java_client.android.AndroidElement;
+import java.util.List;
 
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import java.util.List;
+
+import io.appium.java_client.MobileBy;
+import io.appium.java_client.android.AndroidElement;
 
 public class FirstTest extends BrowserStackTestNGTest {
 
